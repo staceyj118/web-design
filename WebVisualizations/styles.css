@@ -1,0 +1,24 @@
+body { 
+    color: lightgray
+}
+
+h1 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: lightseagreen;
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: darkslategray;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+.dataframe {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color:darkslategray;
+    text-align: left;
+}
