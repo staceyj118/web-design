@@ -1,5 +1,5 @@
 body { 
-    color: lightgray
+    background: rgb(253, 252, 252);
 }
 
 h1 {
@@ -9,16 +9,65 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: rgb(7, 73, 70);
+    font-size: 25px;
+    text-align: left;
+    margin-left: 50px
+}
 p {
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: darkslategray;
     font-size: 18px;
     text-align: left;
-
+    margin-left: 50px
 }
 
 .dataframe {
     font-family: Georgia, Times, 'Times New Roman', serif;
     color:darkslategray;
     text-align: left;
+    margin-left: 50px
+}
+
+.navbar {
+    padding: 10px; 
+    background: rgb(31, 62, 92);
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10 px; 
+    margin-left: 10 px;
+    cursor: pointer;
+}
+
+.navbar li a {
+    color: whitesmoke; 
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.back-to-top {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: right;
+    border-radius: 50%;
+    padding: 0.25rem;
+    background-color: #d6e3f0;
+    position: sticky;
+    margin-left: 10px
+}
+
+.top-wrapper {
+    position: absolute;
+    right:0.25rem;
+    bottom: -5em;
+    width: 3em;
+    pointer-events: none;
 }
