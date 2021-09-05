@@ -51,6 +51,47 @@ p {
     text-decoration: none;
 }
 
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    color: whitesmoke; 
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    text-decoration: none;
+    top: 50px;
+    right: 50px;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
 .back-to-top {
     display: inline-block;
     text-decoration: none;
@@ -64,10 +105,22 @@ p {
     margin-left: 10px
 }
 
+.wrapper::-webkit-scrollbar {
+    display: block;
+    width: 100vh;
+}
+
 .top-wrapper {
     position: absolute;
     right:0.25rem;
     bottom: -5em;
     width: 3em;
     pointer-events: none;
+}
+
+main{
+    padding: 0 3rem;
+    position: relative;
+    max-width: 50 rem;
+    margin: 2rem auto;
 }
