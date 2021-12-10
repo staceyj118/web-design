@@ -4,12 +4,12 @@
 
 Data is more powerful when we share it with others! Use HTML and CSS to create a dashboard showing off the analysis.
 
-![Images/landingResize.png](Images/landingResize.png)
+![Images/landingResize.png](WebVisualizations/Images/landingResize.png)
 
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
-Plot [weather data](Resources/cities.csv) and create individual pages for each plot with means by which navigation between them can be done. These pages contain the visualizations and their corresponding explanations. A landing page, a page where a comparison of all of the plots, and another page where the data used to build them can be viewed.
+Plot [weather data](WebVisualizations/Resources/cities.csv) and create individual pages for each plot with means by which navigation between them can be done. These pages contain the visualizations and their corresponding explanations. A landing page, a page where a comparison of all of the plots, and another page where the data used to build them can be viewed.
 
 ### Website Requirements
 
