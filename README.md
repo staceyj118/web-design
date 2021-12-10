@@ -1,4 +1,4 @@
-# web-design-challenge
+# Web Design
 
 ## Background
 
